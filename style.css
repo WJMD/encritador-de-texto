@@ -24,7 +24,7 @@ body{
 }
 
 main{
-    outline: 1px solid red;
+    
     display: flex;
     height: 100vh;
     padding: 50px;
@@ -35,17 +35,17 @@ main{
     display: flex;
     width: 100%;
     height: 100%;
-    outline: 1px solid yellow;
+  
 }
 
 .seccion1{
-    outline: 1px solid orange;
+    
     height: 100%;
     flex-grow: 5;
 }
 
 .seccion2{
-    outline: 1px solid blue;
+   
     height: 100%;
     flex-grow: 1;
     padding: 50px;
@@ -86,6 +86,13 @@ main{
 
 #Encripta{
     height: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-top: 75px;
 }
 #texArea{
     
@@ -132,7 +139,20 @@ button.btnCopiar{
 
 .ocultar {
     display: none;
+
 }
+
+@media (max-width:1080px){
+    .contenido{ flex-direction: column;
+    }
+    .seccion2{
+        max-width: unset;
+        min-width: unset;
+        width: 100%;
+    }
+}
+
+
 
 
 
