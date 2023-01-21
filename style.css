@@ -27,7 +27,7 @@ main{
     
     display: flex;
     height: 100vh;
-    padding: 50px;
+    padding: 20px;
 }
 
 .contenido{
@@ -168,6 +168,12 @@ button.btnCopiar{
     padding: 15px 0;
 }
 
+.iconos{
+    margin-left: 2px;
+}
 
+@media screen and (max-width:480px) {
+   
 
+}
 
