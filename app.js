@@ -26,14 +26,12 @@ var bloqueImg = document.querySelector(".bloque-img")
             document.getElementById("texArea").value = texto;
             mostrarBloque();
         }else{
+            swal('Error!!','La palabras deben ser en Minusculas y sin caracteres especiales','error');
             limpiar();
-            alert("La palabras deben ser en Minusculas y sin caracteres especiales!");
-
         }
 
     }else{
-        limpiar();
-        alert("El campo de caracteres no puedes estar vacio");
+        swal('Error!!','El campo de caracteres no puedes estar vacio','error');
      }
 
      
@@ -63,18 +61,17 @@ var bloqueImg = document.querySelector(".bloque-img")
             mostrarBloque();
         
         }else{
+            swal('Error!!','La palabras deben ser en Minusculas y sin caracteres especiales','error');
             limpiar();
-            alert("La palabras deben ser en Minusculas y sin caracteres especiales");
 
         }
      }else{
-        limpiar();
-        alert("El campo de caracteres no puedes estar vacio");
+        swal('Error!!','El campo de caracteres no puedes estar vacio','error');
      }
      
      
 
- ``}
+ }
 
 
  function limpiar(){

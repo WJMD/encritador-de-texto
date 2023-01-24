@@ -5,29 +5,33 @@
     line-height: 1.5;
 }
 header{
-    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: block;
+    
 }
-
-textarea{
-    border: none;
-    outline: none;
-    resize: none;
-    background: transparent;
-    width: 100%;
+header h2{
+    position: absolute;
+    display: inline;
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 32px;
+    color:#0A3871;
+    font-weight: bold;
 }
 
 body{
     padding: 5px;
-    background:#E5E5E5 ;
-    min-height: 100vh;
+    background:#E9ECF8 ;
+    min-height: 90vh;
 
 }
 
 main{
     
     display: flex;
-    height: 100vh;
-    padding: 20px;
+    height: 90vh;
+    padding: 10px;
 }
 
 .contenido{
@@ -38,10 +42,30 @@ main{
   
 }
 
+
 .seccion1{
     
     height: 100%;
     flex-grow: 5;
+    margin-top: 3em;
+}
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    background: transparent;
+    width: 90%;
+}
+/*Primer texArea*/
+#Encripta{
+    height: 60%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    padding-left: 30px;
+    padding-top: 75px;
 }
 
 .seccion2{
@@ -74,45 +98,36 @@ main{
     gap: 10px;
 }
 
-.btnEncriptar {
+button.btnEncriptar{
     flex-grow: 1;
+    background: #1154a7;
+    border-radius: 24px;
+    font-size: 25px;
+    color : #fff;
 }
 
-.btnDesencriptar {
-    flex-grow: 1;
+.btnEncriptar:hover{
+ background: #0A3871;
 }
 
-
-
-#Encripta{
-    height: 60%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-    padding-left: 30px;
-    padding-top: 75px;
-}
 #texArea{
-    
+    height: 80%;
+    font-size: 16px;
     color: #0A3871;
 }
 
-button.btnEncriptar{
-    flex-grow: 1;
-    background: #0A3871;
-    border-radius: 24px;
-    font-size: 25px;
-    color : #fff
-}
+
 
 button.btnDesencriptar{
     flex-grow: 1;
     background: #D8DFE8;
-    border: 1px solid #0A3871;
+    border: 1px solid #0b3b74;
     border-radius: 24px;
     font-size: 25px;
+}
+
+.btnDesencriptar:hover{
+    background: #a9b0ba;
 }
 
 button.btnCopiar{
@@ -165,11 +180,14 @@ button.btnCopiar{
     justify-content: center;
     align-items: center;
     align-self: flex-end;
-    padding: 15px 0;
+    padding: 10px 0;
+    font-weight: bold;
 }
 
-.iconos{
+.iconos li{
+    display: inline;
     margin-left: 2px;
+    font-size: 30px;
 }
 
 @media screen and (max-width:480px) {
