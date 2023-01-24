@@ -67,6 +67,7 @@ textarea{
     padding-left: 30px;
     padding-top: 75px;
 }
+::placeholder { color: #1154a7; }
 
 .seccion2{
    
@@ -89,6 +90,10 @@ textarea{
     background-color: white;
     padding: 50px;
     border-radius: 24px;
+}
+
+.exclamacion{
+    padding-top: 5em;
 }
 
 .botones {
@@ -120,7 +125,9 @@ button.btnEncriptar{
     color: #0A3871;
 }
 
-
+#texto2{
+    margin-top: 2em;
+}
 
 button.btnDesencriptar{
     flex-grow: 1;

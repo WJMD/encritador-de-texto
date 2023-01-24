@@ -82,7 +82,14 @@ var bloqueImg = document.querySelector(".bloque-img")
      var content = document.getElementById('texArea').value;
      navigator.clipboard.writeText(content)
      limpiar();
-    ocultarBloque();
+     ocultarBloque();
+     Toastify({
+
+        text: "COPIADO!!",
+        
+        duration: 3000
+        
+        }).showToast();
 
  }
 
