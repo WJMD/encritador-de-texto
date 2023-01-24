@@ -31,7 +31,7 @@ main{
     
     display: flex;
     height: 90vh;
-    padding: 10px;
+    
 }
 
 .contenido{
@@ -191,18 +191,32 @@ button.btnCopiar{
     justify-content: center;
     align-items: center;
     align-self: flex-end;
-    padding: 10px 0;
+    padding: 1.4em;
     font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    
+    
 }
 
 .iconos li{
-    display: inline;
+    display: inline-block;
     margin-left: 2px;
-    font-size: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+    
+}
+#linkAlura{
+    color:black;
+}
+#linkGithub{
+    color:black;
+    font-size: 1.3em;
+}
+#linkLinkedin{
+    color: #0A3871;
+    font-size: 1.3em;
 }
 
-@media screen and (max-width:480px) {
-   
-
-}
 
