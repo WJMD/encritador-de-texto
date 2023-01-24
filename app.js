@@ -83,7 +83,6 @@ var bloqueImg = document.querySelector(".bloque-img")
      navigator.clipboard.writeText(content)
      limpiar();
     ocultarBloque();
-   
 
  }
 

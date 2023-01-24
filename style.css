@@ -96,6 +96,10 @@ textarea{
     padding: 0 10px;
     height: 60px;
     gap: 10px;
+    
+}
+button{
+    cursor: pointer;
 }
 
 button.btnEncriptar{
