@@ -42,10 +42,9 @@ main{
   
 }
 
-
 .seccion1{
     
-    height: 100%;
+    height: 97%;
     flex-grow: 5;
     margin-top: 3em;
 }
@@ -194,29 +193,26 @@ button.btnCopiar{
     padding: 1.4em;
     font-weight: bold;
     font-size: 1.2em;
-    width: 100%;
-    
-    
+    width: 100%; 
 }
-
+/*Centralizado de los iconos, tamahno y colores*/
 .iconos li{
     display: inline-block;
-    margin-left: 2px;
-    font-size: 1.2em;
-    text-align: center;
-    color: black;
-    
+    margin-left: 2px;   
 }
+
 #linkAlura{
-    color:black;
+    color:#0A3871;
+    text-decoration: none;
+    font-size: 1.25em;
 }
 #linkGithub{
     color:black;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 #linkLinkedin{
     color: #0A3871;
-    font-size: 1.3em;
-}
+    font-size: 1.5em;
+}/*...*/
 
 

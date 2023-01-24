@@ -1,4 +1,4 @@
- //Variables
+//Variables
  var btnEncriptar = document.querySelector(".btnEncriptar");
  var btnDesencriptar = document.querySelector(".btnDesencriptar");
  var btnCopiar = document.querySelector(".btnCopiar");
@@ -87,7 +87,7 @@ var bloqueImg = document.querySelector(".bloque-img")
 
         text: "COPIADO!!",
         
-        duration: 3000
+        duration: 2000
         
         }).showToast();
 
