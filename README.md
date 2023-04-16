@@ -2,6 +2,7 @@
   <img alt='Logo' src='https://github.com/Pool1541/encriptador-de-texto/blob/main/assets/images/Logo.png'>
 </div>
 
+
 # Encriptador de texto
 
 Proyecto propuesto por alura: <br>
@@ -75,6 +76,17 @@ Si deseas contribuir al proyecto, puedes seguir los siguientes pasos:
 - Confirma tus cambios: git commit -am "Descripción de los cambios realizados".
 - Sube tus cambios a GitHub: git push origin mi-rama.
 - Crea una solicitud de extracción (pull request) en GitHub y describe tus cambios.
+
+---
+## Insignia
+- `Esta es la insignia dada Por`
+[Alura](https://www.aluracursos.com/)
+`al completar el Challenge del Encriptador`
+
+<div align='center'>
+  <img alt='Logo' src='https://github.com/WJMD/encritador-de-texto/blob/main/img/Insignia%20del%20Alura%20Challenge%20ENCRIPTADOR%20DE%20TEXTO.png'>
+</div>
+
 
 ---
 
