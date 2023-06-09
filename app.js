@@ -78,6 +78,7 @@ var bloqueImg = document.querySelector(".bloque-img")
      document.getElementById("texArea").value = "";
      document.getElementById("Encripta").value = "";
  }
+ 
  function copiarTexto(){
      var content = document.getElementById('texArea').value;
      navigator.clipboard.writeText(content)
@@ -106,7 +107,7 @@ var bloqueImg = document.querySelector(".bloque-img")
  /*function comprobarminusculas(texto){
     let regular = !/[^a-z\sñ]/;
     return regular.test(texto);
-
+    
  }*/
 
     //evaluar que el texto sea en minisculas
